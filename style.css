@@ -1,4 +1,109 @@
+.page {
+    width: 1280px;/*max-width*/
+    margin: auto;
+    display: flex;
+    flex-direction:column; /* столбец */
+    align-items: center;/* располагаем блоки по центру */
+    font-family: 'Inter';
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    text-rendering: optimizeLegibility;
+    border:3px solid #d81435; /* красный рамка */
+  }
+  
 .header {
-    height: 100px;
-    background-color: #000;
+    width: 1184px;
+    margin-top: 28px;
+    display: flex;
+    flex-direction: row; /* строка */
+    justify-content: space-between; /* расположить равномерно */
+    background-color: #2A2C2F;
 } 
+
+.header__lang-link {
+    margin-left: 18px;
+    color: #ffffff;
+    line-height: 28px;
+    font-size: 24px;
+    font-weight:normal;
+  }
+
+.header__lang-link_disable {
+    text-decoration: none;
+  }
+
+.header__logo {
+    width: 176px;
+    height: 52px;
+    background: url('./images/header_logo.png') no-repeat;   
+    background-size: cover;
+  }
+
+  .lead {
+    display: flex;
+    flex-direction:column; /* столбец */
+    align-items: center;/* располагаем блоки по центру */
+    margin-top: 56px;
+  }
+
+  .lead__title {
+    font-family: "Inter";
+    position: relative;
+    display: flex;
+    width: 720px;
+    font-size: 96px;
+    line-height: 100px;
+    font-weight: bold;
+    font-style:normal;
+    text-align: center;
+    margin-top: 0; /*без отступов */
+    margin-bottom: 0;
+    z-index: 1; /* накрывает для всех кто меньше */
+    border:2px solid #d81435; /* красный рамка */
+  }
+  
+.lead__subtitle {
+    width: 640px;
+    margin-top: 32px;
+    /*height: 75px;/*75px текст отступает от верха блока*/
+    font-size: 30px;
+    line-height: 36px;
+    font-weight:normal;
+    text-align: center;
+    z-index: 1; /* накрывает для всех кто меньше */
+    margin-top: 32px; /*без отступов */
+    margin-bottom: 64px;
+    border:2px solid #d81435; /* красный рамка */
+  }
+
+  .lead__image {
+    /*display: flex;*/
+    width: 984px;/*984*/
+    height: 615px;/*615*/
+    z-index: 2; /* накрывает для всех кто меньше */
+  /*  border:2px solid #d81435; /* красный рамка */
+  }
+  .stretch {
+    width:100%;
+    height:100%;
+  }
+
+.lead__caption {
+    /*width: 640px;*/
+    /*height: 75px;/*75px текст отступает от верха блока*/
+    /*position: absolute;*/
+    justify-self: start;
+    font-size: 10px;
+    line-height: 14px;
+    font-weight:normal;
+    text-align: center;
+    z-index: 1; /* накрывает для всех кто меньше */
+    margin-top: 8px; /*без отступов */
+    margin-bottom: 0;
+    border:2px solid #d81435; /* красный рамка */
+  }
+  
+   
