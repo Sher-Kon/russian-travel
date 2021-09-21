@@ -115,5 +115,35 @@
   margin: 0;
   padding: 0;
 }
-  
-   
+
+.intro {
+  width: 690px;
+  display: flex;
+  flex-direction:column; /* столбец */
+  margin-top: 92px;
+}
+
+
+.intro_title {
+  font-size: 54px;
+  line-height: 58px;
+  font-weight: bold;
+  font-style:normal;
+  text-align: center;  
+}
+
+.intro_text {
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: normal;
+  font-style:normal;
+  text-align:left;  
+}
+
+.intro_list {
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: normal;
+  font-style:normal;
+  text-align:left;  
+}
