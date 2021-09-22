@@ -11,7 +11,9 @@
     -ms-text-size-adjust: 100%;
     -moz-text-size-adjust: 100%;
     text-rendering: optimizeLegibility;
-    border:3px solid #d81435; /* красный рамка */
+    background-color: #2A2C2F;
+    color: #ffffff;
+    /*border:3px solid #d81435; /* красный рамка */
   }
   
 .header {
@@ -62,7 +64,7 @@
     margin-top: 0; /*без отступов */
     margin-bottom: 0;
     z-index: 1; /* накрывает для всех кто меньше */
-    border:2px solid #d81435; /* красный рамка */
+    /*border:2px solid #d81435; /* красный рамка */
   }
   
 .lead__subtitle {
@@ -77,7 +79,7 @@
     z-index: 1; /* накрывает для всех кто меньше */
     margin-top: 32px; /*без отступов */
     margin-bottom: 64px;
-    border:2px solid #d81435; /* красный рамка */
+    /*border:2px solid #d81435; /* красный рамка */
   }
 
   .lead__image {
@@ -98,6 +100,7 @@
 .lead__caption {
     width: 984px;
     display: flex;
+    flex-direction:column; /* столбец */
     align-items: flex-start;
     justify-content: flex-start;
     /*justify-self: start;*/
@@ -109,7 +112,7 @@
     margin-top: 8px; /*без отступов */
     margin-bottom: 0;
     padding: 0;
-    border:2px solid #d81435; /* красный рамка */
+   /* border:2px solid #d81435; /* красный рамка */
   }
 
 .no-marging-padding {
@@ -160,7 +163,7 @@
   margin-top: 92px;
   padding: 0;
   display: flex;
-  justify-content: space-between; /*от краев равномерно */  
+  justify-content: space-between; /*от краев равномерно */
   flex-wrap: wrap;
 }
 
@@ -183,7 +186,7 @@
   /*height: 660px;/*660*/
   display: flex;
   flex-direction:column; /* столбец */
-  border:2px solid #d81435; /* красный рамка */
+  /*border:2px solid #d81435; /* красный рамка */
 }
 .place__row1 {
   display: flex;
@@ -203,7 +206,7 @@
   font-style:normal;
   text-align:left;  
   margin: 0;
-  border:2px solid #d81435; /* красный рамка */
+ /* border:2px solid #d81435; /* красный рамка */
 }
 
 .place__website {
@@ -212,7 +215,7 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-end;/*прижать к низу для колонки*/
-  border:2px solid #d81435; /* красный рамка */
+ /* border:2px solid #d81435; /* красный рамка */
 }
 
 .place__website_url-heading {
@@ -230,13 +233,17 @@
   line-height: 22px;
   font-weight: normal;
   font-style:normal;
-  text-align:left;  
+  text-align:left;
+  color: #ffffff;  
+}
+.place__website_link:hover {
+  opacity: .5;
 }
 
 .place__image {
   width: 460px;/*460*/
   height: 460px;/*460*/
-  border:2px solid #d81435; /* красный рамка */
+  /*border:2px solid #d81435; /* красный рамка */
 }
 
 .place__paragraphs {
@@ -250,7 +257,7 @@
   font-weight: normal;
   font-style:normal;
   text-align:left;
-  border:2px solid #d81435; /* красный рамка */
+ /* border:2px solid #d81435; /* красный рамка */
 }
 
 .place__paragraph {
@@ -262,17 +269,21 @@
   padding-top: 0;
   margin-top: 0;
   margin-bottom: 26px;  
-  border:2px solid #d81435; /* красный рамка */
+  /*border:2px solid #d81435; /* красный рамка */
 }
 
 .cover {
-  margin-top: 92px;
+  margin-top: 12px;
   position: relative;
 }
 
 .cover__background {
   width: 1184px;/*1184*/
   height: 740px;/*740*/
+  opacity: .7;
+}
+.cover__background:hover {
+  opacity: .5;
 }
 
 .cover__title {
@@ -288,5 +299,62 @@
   text-align:center;  
   margin: 0;
   z-index: 2; /* накрывает всех кто меньше */
-  border:2px solid #d81435; /* красный рамка */
+  color: #ffffff;
+  /*border:2px solid #d81435; /* красный рамка */
+}
+
+.cover__subtitle {
+  width: 360px;/*360*/
+  position: absolute;
+  top: 429px;/*245+152+32*/
+  left: 412px;
+  /*min-height: 76px;/*76*/
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: normal;
+  font-style:normal;
+  text-align:center;  
+  margin: 0;
+  z-index: 3; /* накрывает всех кто меньше */
+  color: #ffffff;
+  /*border:2px solid #d81435; /* красный рамка */
+}
+
+.footer {
+  width: 1184px;
+  display: flex;
+  justify-content: space-between; /*от краев равномерно */
+  padding-top: 90px;
+  padding-bottom: 24px;
+}
+
+.footer__links {
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+.footer__link {
+  font-size: 16px;
+  line-height: 18px;
+  margin-right: 18px;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: normal;
+  font-style:normal;
+  opacity: 1;
+  text-decoration: none;
+  color: #ffffff;
+}
+.footer__link:hover {
+  opacity: .5;
+}
+
+.footer__copyright {
+  font-size: 14px;
+  line-height: 16px;
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+  font-style:normal;
 }
