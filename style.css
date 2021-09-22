@@ -71,7 +71,8 @@
     /*height: 75px;/*75px текст отступает от верха блока*/
     font-size: 30px;
     line-height: 36px;
-    font-weight:normal;
+    font-weight:bold;
+    font-style:normal;
     text-align: center;
     z-index: 1; /* накрывает для всех кто меньше */
     margin-top: 32px; /*без отступов */
@@ -152,4 +153,140 @@
   text-align:left;  
   margin-top: 0;
   margin-bottom: 0;
+}
+
+.photo-grid {
+  width: 1184px;/*1184*/
+  margin-top: 92px;
+  padding: 0;
+  display: flex;
+  justify-content: space-between; /*от краев равномерно */  
+  flex-wrap: wrap;
+}
+
+.photo-grid__item {
+  width: 284px;
+  height:213px;
+  margin: 0;
+  margin-bottom: 16px;
+ /* width:100%;
+  height:100%;*/
+}
+
+.places {
+  width: 984px;/*984*/
+  margin-top: 76px;/*92-16=76*/
+}
+
+.place {
+  width: 984px;/*984*/
+  /*height: 660px;/*660*/
+  display: flex;
+  flex-direction:column; /* столбец */
+  border:2px solid #d81435; /* красный рамка */
+}
+.place__row1 {
+  display: flex;
+  margin-bottom: 48px;
+}
+.place__row2 {
+  display: flex;
+  margin-bottom: 80px;
+}
+
+.place__title {
+  width: 460px;/*460*/
+  /*min-height: 76px;/*76*/
+  font-size: 72px;
+  line-height: 76px;
+  font-weight: bold;
+  font-style:normal;
+  text-align:left;  
+  margin: 0;
+  border:2px solid #d81435; /* красный рамка */
+}
+
+.place__website {
+  width: 456px;/*460*/
+  margin-left: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;/*прижать к низу для колонки*/
+  border:2px solid #d81435; /* красный рамка */
+}
+
+.place__website_url-heading {
+  font-size: 12px;
+  line-height: 12px;
+  font-weight: normal;
+  font-style:normal;
+  text-align:left;
+  margin-top: 0;
+  margin-bottom: 12px;  
+}
+
+.place__website_link {
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: normal;
+  font-style:normal;
+  text-align:left;  
+}
+
+.place__image {
+  width: 460px;/*460*/
+  height: 460px;/*460*/
+  border:2px solid #d81435; /* красный рамка */
+}
+
+.place__paragraphs {
+  width: 484px;/*460*/
+  margin-left: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  font-size: 18px;
+  line-height: 29px;
+  font-weight: normal;
+  font-style:normal;
+  text-align:left;
+  border:2px solid #d81435; /* красный рамка */
+}
+
+.place__paragraph {
+  font-size: 18px;
+  line-height: 29px;
+  font-weight: normal;
+  font-style:normal;
+  text-align:left;
+  padding-top: 0;
+  margin-top: 0;
+  margin-bottom: 26px;  
+  border:2px solid #d81435; /* красный рамка */
+}
+
+.cover {
+  margin-top: 92px;
+  position: relative;
+}
+
+.cover__background {
+  width: 1184px;/*1184*/
+  height: 740px;/*740*/
+}
+
+.cover__title {
+  width: 560px;/*560*/
+  position: absolute;
+  top: 245px;
+  left: 312px;
+  /*min-height: 76px;/*76*/
+  font-size: 72px;
+  line-height: 76px;
+  font-weight: bold;
+  font-style:normal;
+  text-align:center;  
+  margin: 0;
+  z-index: 2; /* накрывает всех кто меньше */
+  border:2px solid #d81435; /* красный рамка */
 }
