@@ -1,0 +1,6 @@
+.intro {
+    width: 690px;
+    display: flex;
+    flex-direction:column; /* столбец */
+    margin-top: 92px;
+  }

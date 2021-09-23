@@ -1,0 +1,8 @@
+.place__website {
+    width: 35%;/*456px*/
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;/*прижать к низу для колонки*/
+   /* border:2px solid #d81435; /* красный рамка */
+  }

@@ -1,0 +1,16 @@
+.cover__subtitle {
+    width: 360px;/*360*/
+    position: absolute;
+    top: 429px;/*245+152+32*/
+    left: 412px;
+    /*min-height: 76px;/*76*/
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: normal;
+    font-style:normal;
+    text-align:center;  
+    margin: 0;
+    z-index: 3; /* накрывает всех кто меньше */
+    color: #ffffff;
+    /*border:2px solid #d81435; /* красный рамка */
+  }

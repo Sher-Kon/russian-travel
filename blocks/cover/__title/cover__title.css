@@ -1,0 +1,16 @@
+.cover__title {
+    width: 560px;/*560*/
+    position: absolute;
+    top: 245px;
+    left: 312px;
+    /*min-height: 76px;/*76*/
+    font-size: 72px;
+    line-height: 76px;
+    font-weight: bold;
+    font-style:normal;
+    text-align:center;  
+    margin: 0;
+    z-index: 2; /* накрывает всех кто меньше */
+    color: #ffffff;
+    /*border:2px solid #d81435; /* красный рамка */
+  }

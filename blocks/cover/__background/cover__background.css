@@ -1,0 +1,9 @@
+.cover__background {
+    width: 1184px;/*1184*/
+    height: 740px;/*740*/
+    opacity: .7;
+  }
+  
+  .cover__background:hover {
+    opacity: .5;
+  }

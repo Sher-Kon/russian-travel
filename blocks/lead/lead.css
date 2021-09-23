@@ -1,0 +1,6 @@
+.lead {
+    display: flex;
+    flex-direction:column; /* столбец */
+    align-items: center;/* располагаем блоки по центру */
+    margin-top: 56px;
+  }

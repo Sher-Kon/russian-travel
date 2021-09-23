@@ -1,0 +1,8 @@
+.photo-grid {
+    max-width: 95%;/*1184*/
+    margin-top: 92px;
+    padding: 0;
+    display: flex;
+    justify-content:space-evenly; /*от краев равномерно */
+    flex-wrap: wrap;
+  }

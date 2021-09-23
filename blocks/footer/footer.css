@@ -1,0 +1,7 @@
+.footer {
+    width: 92%;/*1184px*/
+    display: flex;
+    justify-content: space-between; /*от краев равномерно */
+    padding-top: 90px;
+    padding-bottom: 24px;
+  }

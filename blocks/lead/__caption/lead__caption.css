@@ -1,0 +1,17 @@
+.lead__caption {
+    width: 984px;
+    display: flex;
+    flex-direction:column; /* столбец */
+    align-items: flex-start;
+    justify-content: flex-start;
+    /*justify-self: start;*/
+    font-size: 10px;
+    line-height: 14px;
+    font-weight:normal;
+    text-align: center;
+    z-index: 1; /* накрывает для всех кто меньше */
+    margin-top: 8px; /*без отступов */
+    margin-bottom: 0;
+    padding: 0;
+   /* border:2px solid #d81435; /* красный рамка */
+  }

@@ -1,0 +1,8 @@
+.header {
+    width: 92%;/*1184px;*/
+    margin-top: 28px;
+    display: flex;
+    flex-direction: row; /* строка */
+    justify-content: space-between; /* расположить равномерно */
+    background-color: #2A2C2F;
+} 
