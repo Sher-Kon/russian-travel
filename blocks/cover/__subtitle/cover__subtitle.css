@@ -1,8 +1,8 @@
 .cover__subtitle {
     width: 360px;/*360*/
     position: absolute;
-    top: 429px;/*245+152+32*/
-    left: 412px;
+    top: 58%;/*245+152+32=429px*/
+    left: 35%;/*412px*/
     font-size: 18px;
     line-height: 22px;
     font-weight: 400;

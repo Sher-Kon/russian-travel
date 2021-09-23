@@ -1,8 +1,8 @@
 .cover__title {
     width: 560px;/*560*/
     position: absolute;
-    top: 245px;
-    left: 312px;
+    top: 33%;/*245px*/
+    left: 26%;/*312*/
     font-size: 72px;
     line-height: 76px;
     font-weight: 900;

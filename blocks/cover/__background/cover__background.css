@@ -1,6 +1,6 @@
 .cover__background {
-    width: 1184px;/*1184*/
-    height: 740px;/*740*/
+    width: 100%;/*1184px*/
+    height: 100%;/*740px*/
     opacity: .7;
   }
   
