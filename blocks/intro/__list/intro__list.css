@@ -1,8 +1,9 @@
 .intro__list {
     font-size: 12px;
     line-height: 18px;
-    font-weight: normal;
+    font-weight: 400;
     font-style:normal;
+    letter-spacing: 0;/*интервал между символами */
     text-align:left;  
     margin-top: 0;
     margin-bottom: 0;

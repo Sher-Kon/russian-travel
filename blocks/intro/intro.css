@@ -1,5 +1,5 @@
 .intro {
-    width: 690px;
+    width: 690px;/*720 690px*/
     display: flex;
     flex-direction:column; /* столбец */
     margin-top: 92px;

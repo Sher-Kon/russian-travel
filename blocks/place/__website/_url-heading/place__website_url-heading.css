@@ -1,9 +1,11 @@
 .place__website_url-heading {
     font-size: 12px;
     line-height: 12px;
-    font-weight: normal;
+    font-weight: 400;
     font-style:normal;
+    letter-spacing: 2px;/*интервал между символами */
     text-align:left;
     margin-top: 0;
     margin-bottom: 12px;  
+    color: #AAAAAA;
   }

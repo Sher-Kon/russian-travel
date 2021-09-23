@@ -3,10 +3,9 @@
     position: absolute;
     top: 245px;
     left: 312px;
-    /*min-height: 76px;/*76*/
     font-size: 72px;
     line-height: 76px;
-    font-weight: bold;
+    font-weight: 900;
     font-style:normal;
     text-align:center;  
     margin: 0;
