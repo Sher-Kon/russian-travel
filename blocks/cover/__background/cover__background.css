@@ -1,6 +1,6 @@
 .cover__background {
-    width: 100%;/*1184px*/
-    height: 100%;/*740px*/
+    width: 100%;/* от родителя 1184px;*/
+    height: 100%;/* от родителя 740px;*/
     opacity: .7;
   }
   

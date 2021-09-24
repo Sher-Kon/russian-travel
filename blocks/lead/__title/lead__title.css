@@ -1,7 +1,7 @@
 .lead__title {
     position: relative;
     display: flex;
-    width: 720px;
+    width: 720px;/*720px*/
     font-weight: 900;
     font-style:normal;
     font-size: 96px;

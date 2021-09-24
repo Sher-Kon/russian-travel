@@ -1,0 +1,64 @@
+/* ширина берется из экрана */
+@media screen and (max-width: 1100px) {
+    .photo-grid__item {
+        width: 300px;
+        height: 225px;
+    }
+    .place__image {
+        width: 440px;
+        height: 440px;
+    }
+    .places {
+        width: 928px;/**/
+    }
+    .cover {
+        width: 100%;/*1184px*/
+        /*height: 100%;/*740px*/
+    }
+    .lead__image {
+        width: 928px;
+        height: 580px;
+    }
+    .lead {
+        width: 928px;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .place {
+        margin-bottom: 73px;
+    }
+        .place__paragraph {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .photo-grid__item {
+        width: 352px;
+        height: 264px;
+    }
+    .place__title {
+        font-size: 42px;
+        line-height: 46px;
+    }
+    .place__image {
+        width: 340px;
+        height: 340px;
+    }
+    .places {
+        width: 720px;/**/
+    }
+    .lead__caption {
+        margin-left: 24px;
+    }
+    .lead__image {
+        width: 100%;/*984px;*/
+        height: 100%;/*615px;*/
+    }    
+    .lead {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 750px) {
+
+}

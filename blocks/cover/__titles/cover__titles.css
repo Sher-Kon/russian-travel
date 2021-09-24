@@ -1,0 +1,8 @@
+.cover__titles {
+    position: absolute;/*вырвать из контента*/
+    display: flex;
+    flex-direction:column; /* столбец */
+    align-items: center;/* по центру ширины */
+    justify-content: center;/* по высоте*/
+    /*border:2px solid #d81435; /* красный рамка */
+}

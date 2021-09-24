@@ -1,5 +1,6 @@
 .lead__caption {
-    width: 984px;
+   /*width: 984px;/*984px*/
+    align-self:flex-start;/*отдельно от потока*/
     display: flex;
     flex-direction:column; /* столбец */
     align-items: flex-start;

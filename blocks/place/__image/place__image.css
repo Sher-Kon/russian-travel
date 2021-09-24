@@ -1,5 +1,8 @@
 .place__image {
-    width: 460px;/*460px*/
-    height: 460px;/*460px*/
-    /*border:2px solid #d81435; /* красный рамка */
-  }
+  width: 460px;
+  height: 460px;
+  /* 100%=988px это ширина plase */
+  /*width: calc(340px + (0.545*(100% - 768px)));/*460px*/
+  /*height: calc(340px + (0.545*(100% - 768px)));/*460px 100%=988?*/
+  /*border:2px solid #d81435; /* красный рамка */
+}
