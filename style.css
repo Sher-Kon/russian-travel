@@ -28,7 +28,7 @@
     .place {
         margin-bottom: 73px;
     }
-        .place__paragraph {
+    .place__paragraph {
         font-size: 16px;
         line-height: 26px;
     }
@@ -56,6 +56,13 @@
     }    
     .lead {
         width: 100%;
+    }
+    .photo-grid {
+        margin-top: 88px;
+        margin-bottom: 88px;
+    }
+    .cover {
+        margin-top: 90px;
     }
 }
 
