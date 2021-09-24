@@ -25,9 +25,6 @@
 }
 
 @media screen and (max-width: 960px) {
-    .place {
-        margin-bottom: 73px;
-    }
     .place__paragraph {
         font-size: 16px;
         line-height: 26px;
@@ -59,13 +56,76 @@
     }
     .photo-grid {
         margin-top: 88px;
-        margin-bottom: 88px;
+        margin-bottom: 72px;/*88-16*/
+    }
+    .place {
+        margin-bottom: 73px;/*50 73 80 80*/
     }
     .cover {
-        margin-top: 90px;
+        margin-top: 7px;/*90-73*/
     }
 }
 
 @media screen and (max-width: 750px) {
+    .places {
+        width: 320px;/**/
+    }
+    .place {
+        margin-bottom: 50px;/*50 73 80 80*/
+    }
+    .place__image {
+        width: 320px;
+        height: 320px;
+    }
+    .place__title {
+        font-size: 32px;
+        line-height: 35px;
+    }
+    .place__row1 {
+        flex-direction:column; /* столбец */
+    }
+    .place__row2 {
+        flex-direction:column; /* столбец */
+    }
+    .place__paragraphs {
+        width: 90%;/*320px*/
+        margin-left: 0;
+    }    
+    .lead__title {
+        width: 288px;/*288 720px*/    
+        font-size: 40px;
+        line-height: 44px;
+    }
+    .lead__subtitle {
+        width: 288px;
+        margin-top: 16px;
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .intro {
+        width: 97%;/*320 720 690px*/
+        margin-top: 64px;
+    }
+    .intro__title {
+        font-size: 32px;
+        line-height: 35px;
+        margin-bottom: 40px;
+      }}
 
+@media screen and (max-width: 450px) {
+    .photo-grid__item {
+        width: 288px;
+        height: 216px;
+    }
+    .header__logo {
+        width: 142px;
+        height: 42px;
+    }
+    .header__lang-link {
+        line-height: 20px;
+        font-size: 18px;
+    }
+    .intro__title {
+        width: 240px;/*320 720 690px*/
+    }
 }

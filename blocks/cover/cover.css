@@ -1,5 +1,4 @@
 .cover {
-    margin-top: 92px;
     width: 93%; /*1184px;/*93%*/
     /*height: 740px;/*740px*/
     position: relative;
@@ -8,4 +7,5 @@
     flex-direction:column; /* столбец */
     align-items: center;/* по центру ширины */
     justify-content: center;/* по высоте*/
+    margin-top: 12px;/*92-80*/
 }

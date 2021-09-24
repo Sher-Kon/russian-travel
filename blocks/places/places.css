@@ -1,4 +1,5 @@
 .places {
     width: 984px;/*984px - 77% */
-    margin-top: 76px;/*92-16=76*/
+    margin-top: 0;/*92-16=76*/
+    margin-bottom: 0;
   }
