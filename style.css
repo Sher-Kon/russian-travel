@@ -110,7 +110,36 @@
         font-size: 32px;
         line-height: 35px;
         margin-bottom: 40px;
-      }}
+      }
+      .cover__title {
+        width: 230px;/*360*/
+        font-size: 32px;
+        line-height: 35px;
+        margin-bottom: 16px;
+    }
+    .cover__subtitle {
+        width: 288px;/*360*/
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .footer {
+        /*justify-content: space-between; /*от краев равномерно */
+        flex-direction:column; /* столбец */
+        padding-top: 64px;/*90px*/
+        padding-bottom: 24px;/*24px*/
+        padding-left: 16px;
+    }
+    .footer__links {
+        flex-direction:column; /* столбец */
+        justify-content: space-between; /*от краев равномерно */
+    }
+    .footer__link {
+        padding-bottom: 32px;
+    }
+    .footer__copyright {
+        margin-top: 16px;/*48-32(footer__link)*/
+    }
+}
 
 @media screen and (max-width: 450px) {
     .photo-grid__item {
