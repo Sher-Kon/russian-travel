@@ -1,9 +1,10 @@
 .cover__titles {
     position: absolute;/*вырвать из контента*/
-    margin: auto;
+    margin: 0 auto;/*запрещенный метод*/
     display: flex;
     flex-direction:column; /* столбец */
     align-items: center;/* по центру ширины */
     justify-content: center;/* по высоте*/
+    z-index: 1;/*поместить в 1 слой*/
     /*border:2px solid #d81435; /* красный рамка */
 }
