@@ -2,10 +2,10 @@
     width: 93%; /*1184px;/*93%*/
     /*height: 740px;/*740px*/
     display: flex;/* флекс - контейнер*/
-    position:relative;
-    margin: auto;
     flex-direction:column; /* столбец */
     align-items: center;/* по центру ширины */
     justify-content: center;/* по высоте*/
+    position:relative;
+    margin: auto;
     margin-top: 12px;/*92-80*/
 }

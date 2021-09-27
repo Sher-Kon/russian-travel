@@ -197,3 +197,36 @@
         width: 240px;/*320px 690px 720px*/
     }
 }
+
+
+
+.container {
+	display: block;
+    /*background-color: red;*/
+    background: url('../images/cover-trains.jpg') no-repeat;
+    background-size: cover;
+    width: 1184px;/*1184px*/
+    height: 740px;/*740px*/
+    position: relative;/*relative;*/
+	margin: auto;
+}
+.title {
+    background-color: wait;/*blue*/
+    width: 250px;
+    position: absolute;
+    top: 50px;
+    left:150px;
+	color: #FFF;
+}
+.container:before {
+    display: block;/*block - обязательно*/
+    height: 100%;
+    width: 100%;
+    content:"";
+    background-color: rgba(255, 255, 255, 0.3);
+    opacity: 0.3;
+}
+
+.container:hover:before {
+  opacity: 0.7;
+}

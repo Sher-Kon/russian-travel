@@ -3,7 +3,18 @@
     height: 100%;/* от родителя 740px;*/
     opacity: .7;
   }
-  
+
+
+.cover__background:before {
+    display: block;
+    height: 100%;
+    width: 100%;
+    content:"befo";
+    background-color: rgba(255, 255, 255, 0.6);
+    opacity: 0;
+}
+
+
   .cover__background:hover {
     opacity: .5;
   }
