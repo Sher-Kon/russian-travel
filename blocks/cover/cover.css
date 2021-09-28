@@ -1,6 +1,4 @@
 .cover {
-    width: 93%; /*1184px;/*93%*/
-    /*height: 740px;/*740px*/
     display: flex;/* флекс - контейнер*/
     flex-direction:column; /* столбец */
     align-items: center;/* по центру ширины */

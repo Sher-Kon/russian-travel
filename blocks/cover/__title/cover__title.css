@@ -1,17 +1,13 @@
 .cover__title {
-    width: 560px;/*560px*/
-    /*position: absolute;*/
-    /*top: 33%;/*245px*/
-    /*left: 26%;/*312*/
-    font-size: 72px;
-    line-height: 76px;
-    font-weight: 900;
-    font-style:normal;
-    text-align:center;  
-    margin: 0;
-    margin-bottom: 32px;
-    z-index: 2; /* накрывает всех кто меньше */
-    color: #ffffff;
-    /*border:2px solid #d81435; /* красный рамка */
-  }
+  width: 560px;/*560px*/
+  font-size: 72px;
+  line-height: 76px;
+  font-weight: 900;
+  font-style:normal;
+  text-align:center;  
+  margin-bottom: 16px;
+  z-index: 1; /* накрывает всех кто меньше */
+  color: #ffffff;
+  /*border:2px solid #d81435; /* красный рамка */
+}
 

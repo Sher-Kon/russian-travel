@@ -1,11 +1,24 @@
+/* МЕДИАЗАПРОСЫ ПО ШИРИНЕ ЭКРАНА */
 /* ширина берется из экрана */
 @media screen and (max-width: 1275px) {
-        .photo-grid {
+    .photo-grid {
         grid-template-columns: repeat(3,1fr);
         grid-template-rows: repeat(4,1fr);
         gap: 14px;
     }
+    .cover__background {
+        width: 1010px;/*1024 1184px*/
+        height: 631px;/*640 740px*/
+    }
+    .cover__titles {
+        top: 151px;/*181 от верха*/
+        left: 232px;/*302 слева*/
+    }
+    .cover__title {
+        margin-bottom: 0;
+    }
 }
+
 
 @media screen and (max-width: 1100px) {
     .photo-grid__item {
@@ -19,16 +32,23 @@
     .places {
         width: 928px;/**/
     }
-    .cover {
-        width: 100%;/*1184px*/
-        /*height: 100%;/*740px*/
-    }
     .lead__image {
         width: 928px;
         height: 580px;
     }
     .lead {
         width: 928px;
+    }
+}
+
+@media screen and (max-width: 1045px) {
+    .cover__background {
+        width: 755px;/*768 1024 1184px*/
+        height: 462px;/*470 640 740px*/
+    }
+    .cover__titles {
+        top: 80px;/*115 181 от верха*/
+        left: 115px;/*100 302 слева*/
     }
 }
 
@@ -39,6 +59,7 @@
     gap: 16px;
     }
 }
+
 
 @media screen and (max-width: 960px) {
     .place__paragraph {
@@ -77,15 +98,31 @@
         margin-top: 88px;
         margin-bottom: 72px;/*88-16*/
     }
-    .cover {
-        margin-top: 7px;/*90-73*/
-    }
 }
 
-@media screen and (max-width: 781px) {
+@media screen and (max-width: 791px) {
     .photo-grid {
         grid-template-columns: repeat(1,1fr);
         grid-template-rows: repeat(12,1fr);
+    }
+    .cover__background {
+        width: 310px;/* 320 768 1024 1184px*/
+        height: 190px;/*470 640 740px*/
+    }
+    .cover__titles {
+        top: 20px;/*30 115 181 от верха*/
+        left: 15px;/*16 100 302 слева*/
+    }
+    .cover__title {
+            width: 230px;/*360*/
+            font-size: 32px;
+            line-height: 35px;
+            margin-bottom: 1px;
+    }
+    .cover__subtitle {
+            width: 288px;/*360*/
+            font-size: 14px;
+            line-height: 16px;
     }
 }
 
@@ -146,20 +183,9 @@
         line-height: 35px;
         margin-bottom: 40px;
       }
-      .cover__title {
-        width: 230px;/*360*/
-        font-size: 32px;
-        line-height: 35px;
-        margin-bottom: 16px;
-    }
     .photo-grid {
         margin-top: 64px;/*64 88*/
         margin-bottom: 64px;/*64 88-16*/
-    }
-    .cover__subtitle {
-        width: 288px;/*360*/
-        font-size: 14px;
-        line-height: 16px;
     }
     .footer {
         /*justify-content: space-between; /*от краев равномерно */
@@ -198,35 +224,3 @@
     }
 }
 
-
-
-.container {
-	display: block;
-    /*background-color: red;*/
-    background: url('../images/cover-trains.jpg') no-repeat;
-    background-size: cover;
-    width: 1184px;/*1184px*/
-    height: 740px;/*740px*/
-    position: relative;/*relative;*/
-	margin: auto;
-}
-.title {
-    background-color: wait;/*blue*/
-    width: 250px;
-    position: absolute;
-    top: 50px;
-    left:150px;
-	color: #FFF;
-}
-.container:before {
-    display: block;/*block - обязательно*/
-    height: 100%;
-    width: 100%;
-    content:"";
-    background-color: rgba(255, 255, 255, 0.3);
-    opacity: 0.3;
-}
-
-.container:hover:before {
-  opacity: 0.7;
-}
