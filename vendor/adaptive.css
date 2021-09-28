@@ -82,7 +82,7 @@
         height: 340px;
     }
     .places {
-        width: 720px;/**/
+        width: 700px;/*720*/
     }
     .lead__caption {
         margin-left: 24px;
@@ -101,6 +101,12 @@
 }
 
 @media screen and (max-width: 791px) {
+    .lead__title {
+        width: 700px;/*288 720px*/
+    }
+    .intro {
+        width: 670px;/*320 720 690px*/
+    }
     .photo-grid {
         grid-template-columns: repeat(1,1fr);
         grid-template-rows: repeat(12,1fr);
