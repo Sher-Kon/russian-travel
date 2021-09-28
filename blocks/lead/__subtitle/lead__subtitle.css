@@ -1,13 +1,12 @@
 .lead__subtitle {
     width: 640px;
-    margin-top: 32px;
     font-size: 30px;
     line-height: 36px;
     font-weight:400;
     font-style:normal;
     text-align: center;
     z-index: 1; /* накрывает для всех кто меньше */
-    margin-top: 32px; /*без отступов */
+    margin-top: 32px;
     margin-bottom: 64px;
     /*border:2px solid #d81435; /* красный рамка */
   }

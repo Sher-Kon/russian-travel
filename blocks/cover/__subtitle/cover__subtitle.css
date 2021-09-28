@@ -4,7 +4,7 @@
   line-height: 22px;
   font-weight: 400;
   font-style:normal;
-  text-align:center;  
+  text-align:center;
   z-index: 1; /* накрывает всех кто меньше */
   color: #ffffff;
   /*border:2px solid #d81435; /* красный рамка */
