@@ -1,9 +1,8 @@
 .cover {
+    width: 100%;
     display: flex;/* флекс - контейнер*/
     flex-direction:column; /* столбец */
     align-items: center;/* по центру ширины */
     justify-content: center;/* по высоте*/
-    position:relative;
-    margin: auto;
     margin-top: 12px;/*92-80*/
 }

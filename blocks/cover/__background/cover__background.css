@@ -1,22 +1,16 @@
 .cover__background {
-	display: block;
-    background: url('../../../images/cover-trains.jpg') no-repeat;
-    background-size: cover;
-    opacity: 0.9;
-    width: 1184px;/*1184px*/
-    height: 740px;/*740px*/
-    position: relative;/*relative;*/
-}
-
-.cover__background::before {
-  display: block;/*block - обязательно*/
-  height: 100%;
-  width: 100%;
-  content:"";
-  background-color: rgba(0, 0, 0, 0.3);
-  opacity: 0;
-}
-
-.cover__background:hover::before {
-    opacity: 1;
-}
+  background: url('../../../images/cover-trains.jpg') no-repeat;
+  background-size: cover;
+  width: 1184px;/* от родителя 1184px;*/
+  height: 740px;/* от родителя 740px;*/
+  display: flex;
+  flex-direction:column; /* столбец */
+  align-items: center;/* по центру ширины */
+  justify-content: center;/* по высоте*/
+  text-decoration: none;
+  opacity: .9;
+  }
+  
+  .cover__background:hover {
+    opacity: .5;
+  }
