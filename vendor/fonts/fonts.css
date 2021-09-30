@@ -11,26 +11,17 @@
 @font-face {
   font-family: 'Inter';
   font-style:  normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("Inter-Bold.woff2?v=3.19") format("woff2"),
+       url("Inter-Bold.woff?v=3.19") format("woff");
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style:  normal;
   font-weight: 900;
   font-display: swap;
   src: url("Inter-Black.woff2?v=3.19") format("woff2"),
        url("Inter-Black.woff?v=3.19") format("woff");
-}
-
-@font-face {
-  src: 
-  url(https://pictures.s3.yandex.net/fonts/istokregular.woff2) format('woff2'),
-  url(https://pictures.s3.yandex.net/fonts/istokregular.woff) format('woff'),
-  url(https://pictures.s3.yandex.net/fonts/istokregular.ttf) format('truetype');
-  font-family: 'Istok Web';
-  font-weight: normal;
-}
-
-@font-face {
-  src:
-  url(https://pictures.s3.yandex.net/fonts/istokbold.woff2) format('woff2'),
-  url(https://pictures.s3.yandex.net/fonts/istokbold.woff) format('woff'),
-  url(https://pictures.s3.yandex.net/fonts/istokbold.ttf) format('truetype');
-  font-family: 'Istok Web';
-  font-weight: bold;
 }
