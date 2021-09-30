@@ -12,3 +12,17 @@
     z-index: 1; /* накрывает для всех кто меньше */
     /*border:2px solid #d81435; /* красный рамка */
   }
+
+@media screen and (max-width: 791px) {
+  .lead__title {
+    width: 700px;/*288 720px*/
+  }
+}
+
+@media screen and (max-width: 745px) {
+  .lead__title {
+    width: 288px;/*288 720px*/
+    font-size: 40px;
+    line-height: 44px;
+  }
+}

@@ -7,10 +7,30 @@
   flex-direction:column; /* столбец */
   align-items: center;/* по центру ширины */
   justify-content: center;/* по высоте*/
-  text-decoration: none;
   opacity: .9;
   }
   
   .cover__background:hover {
-    opacity: .5;
+  opacity: .5;
   }
+
+  @media screen and (max-width: 1275px) {
+    .cover__background {
+      width: 1010px;/*1024 1184px*/
+      height: 631px;/*640 740px*/
+    }
+  }
+
+  @media screen and (max-width: 1045px) {
+    .cover__background {
+        width: 755px;/*768 1024 1184px*/
+        height: 462px;/*470 640 740px*/
+    }
+}
+
+@media screen and (max-width: 791px) {
+  .cover__background {
+    width: 310px;/* 320 768 1024 1184px*/
+    height: 190px;/*470 640 740px*/
+  }
+}

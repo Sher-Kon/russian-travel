@@ -1,16 +1,22 @@
 .footer__link {
-    font-size: 16px;
-    line-height: 18px;
-    margin-right: 18px;
-    margin-top: 0;
-    margin-bottom: 0;
-    font-weight: 400;
-    font-style:normal;
-    opacity: 1;
-    text-decoration: none;
-    color: #ffffff;
-  }
+  font-size: 16px;
+  line-height: 18px;
+  margin-right: 18px;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 400;
+  font-style:normal;
+  opacity: 1;
+  text-decoration: none;
+  color: #ffffff;
+}
   
-  .footer__link:hover {
-    opacity: .5;
+.footer__link:hover {
+  opacity: .5;
+}
+
+@media screen and (max-width: 745px) {
+  .footer__link {
+    padding-bottom: 32px;
   }
+}

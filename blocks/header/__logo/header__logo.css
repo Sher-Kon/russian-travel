@@ -4,3 +4,10 @@
     background: url('../../../images/header_logo.png') no-repeat;
     background-size: cover;
   }
+
+@media screen and (max-width: 450px) {
+  .header__logo {
+    width: 142px;
+    height: 42px;
+  }
+}

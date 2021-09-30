@@ -5,3 +5,13 @@
     padding-top: 90px;
     padding-bottom: 24px;
   }
+
+@media screen and (max-width: 745px) {
+  .footer {
+    /*justify-content: space-between; /*от краев равномерно */
+    flex-direction:column; /* столбец */
+    padding-top: 64px;/*90px*/
+    padding-bottom: 24px;/*24px*/
+    padding-left: 16px;
+  }
+}

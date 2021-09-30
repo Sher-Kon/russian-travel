@@ -6,3 +6,15 @@
     margin-bottom: 80px;/*50 73 80 80*/
     /*border:2px solid #d81435; /* красный рамка */
   }
+
+@media screen and (max-width: 960px) {
+  .place {
+    margin-bottom: 73px;/*50 73 80 80*/
+  }
+}
+
+@media screen and (max-width: 745px) {
+  .place {
+    margin-bottom: 50px;/*50 73 80 80*/
+  }
+}

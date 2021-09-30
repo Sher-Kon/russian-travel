@@ -6,3 +6,10 @@
     justify-content: flex-end;/*прижать к низу для колонки*/
    /* border:2px solid #d81435; /* красный рамка */
   }
+
+@media screen and (max-width: 745px) {
+    .place__website {
+        width: 288px;/*320px*/
+        margin-left: 16px;
+    }
+}

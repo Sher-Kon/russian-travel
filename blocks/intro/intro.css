@@ -4,3 +4,16 @@
     flex-direction:column; /* столбец */
     margin-top: 92px;
   }
+
+@media screen and (max-width: 791px) {
+  .intro {
+    width: 670px;/*320 720 690px*/
+  }
+}  
+
+@media screen and (max-width: 745px) {
+  .intro {
+    width: 97%;/*320 720 690px*/
+    margin-top: 64px;
+  }
+}

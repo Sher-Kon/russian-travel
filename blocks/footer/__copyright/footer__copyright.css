@@ -6,3 +6,9 @@
     font-weight: 400;
     font-style:normal;
   }
+
+@media screen and (max-width: 745px) {
+  .footer__copyright {
+      margin-top: 16px;/*48-32(footer__link)*/
+  }
+}

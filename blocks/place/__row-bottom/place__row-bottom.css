@@ -2,3 +2,9 @@
     display: flex;
   /*border:2px solid #d81435; /* красный рамка */
   }
+
+@media screen and (max-width: 745px) {
+  .place__row-bottom {
+    flex-direction:column; /* столбец */
+  }
+}

@@ -4,6 +4,5 @@
     align-items: center;/* по центру ширины */
     justify-content: center;/* по высоте*/
     z-index: 1;/*поместить в 1 слой*/
-    text-decoration: none;
     /*border:2px solid #d81435; /* красный рамка */
 }

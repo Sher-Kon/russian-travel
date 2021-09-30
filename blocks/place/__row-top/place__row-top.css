@@ -2,3 +2,9 @@
     display: flex;
     margin-bottom: 48px;
   }
+
+@media screen and (max-width: 745px) {
+  .place__row-top {
+    flex-direction:column; /* столбец */
+  }
+}
