@@ -136,7 +136,7 @@
     .place {
         margin-bottom: 50px;/*50 73 80 80*/
     }
-    .place__row1 {
+    .place__row-top {
         flex-direction:column; /* столбец */
     }
     .place__title {
@@ -155,7 +155,7 @@
         width: 320px;
         height: 320px;
     }
-    .place__row2 {
+    .place__row-bottom {
         flex-direction:column; /* столбец */
     }
     .place__paragraphs {
