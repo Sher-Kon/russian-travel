@@ -1,6 +1,6 @@
 .page {
     min-width: 320px;/*320px 768px 1024px 1280px*/
-    max-width: 1284px;/* 1280px */
+    /*max-width: 1284px;/* 1280px */
     margin: auto;
     display: flex;
     flex-direction:column; /* столбец */
