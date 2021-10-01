@@ -1,10 +1,10 @@
-.place__row-bottom {
+.place__first-conteiner {
     display: flex;
-  /*border:2px solid #d81435; /* красный рамка */
+    margin-bottom: 48px;
   }
 
 @media screen and (max-width: 745px) {
-  .place__row-bottom {
+  .place__first-conteiner {
     flex-direction:column; /* столбец */
   }
 }
