@@ -9,7 +9,7 @@
     font-size: 10px;
     line-height: 14px;
     font-weight:400;
-    letter-spacing: 2px;/*интервал между символами */
+    letter-spacing: 1.5px;/*интервал между символами */
     text-align: center;
     z-index: 1; /* накрывает для всех кто меньше */
     margin-top: 8px; /*без отступов */

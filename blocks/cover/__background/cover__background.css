@@ -2,7 +2,7 @@
   background: url('../../../images/cover-trains.jpg') no-repeat;
   background-size: cover;
   width: 1184px;/* от родителя 1184px;*/
-  height: 740px;/* от родителя 740px;*/
+  min-height: 740px;/* от родителя 740px;*/
   display: flex;
   flex-direction:column; /* столбец */
   align-items: center;/* по центру ширины */
@@ -17,20 +17,20 @@
   @media screen and (max-width: 1275px) {
     .cover__background {
       width: 1010px;/*1024 1184px*/
-      height: 631px;/*640 740px*/
+      min-height: 631px;/*640 740px*/
     }
   }
 
   @media screen and (max-width: 1045px) {
     .cover__background {
         width: 755px;/*768 1024 1184px*/
-        height: 462px;/*470 640 740px*/
+        min-height: 462px;/*470 640 740px*/
     }
 }
 
 @media screen and (max-width: 791px) {
   .cover__background {
     width: 310px;/* 320 768 1024 1184px*/
-    height: 190px;/*470 640 740px*/
+    min-height: 190px;/*470 640 740px*/
   }
 }

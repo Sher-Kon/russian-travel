@@ -6,3 +6,5 @@
 * Pазмеры картинок установлены для размеров экранов: 320, 768, 1024, 1280px.
 
 * [Ссылка на GitHub Pages](https://github.com/Sher-Kon/russian-travel.git)
+
+работающий сайт на github pages: https://praktikum.yandex.ru/trainer/web/lesson/f83d22ce-8bfe-4017-8e0f-dbf52ab92a50 
