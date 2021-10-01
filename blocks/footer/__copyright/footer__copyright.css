@@ -12,3 +12,9 @@
       margin-top: 16px;/*48-32(footer__link)*/
   }
 }
+
+@media screen and (max-width: 450px) {
+.footer__copyright {
+  line-height: 14px;
+  }
+}

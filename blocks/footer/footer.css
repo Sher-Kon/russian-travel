@@ -1,5 +1,6 @@
 .footer {
     width: 92%;/*1184px*/
+    max-width: 1184px;/* 1280px */
     display: flex;
     justify-content: space-between; /*от краев равномерно */
     padding-top: 90px;
@@ -8,6 +9,8 @@
 
 @media screen and (max-width: 745px) {
   .footer {
+    max-width: 288px;/* 280px */
+    align-self: flex-start;/*центровать слева*/
     /*justify-content: space-between; /*от краев равномерно */
     flex-direction:column; /* столбец */
     padding-top: 64px;/*90px*/
