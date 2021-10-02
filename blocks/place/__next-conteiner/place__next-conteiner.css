@@ -6,5 +6,8 @@
 @media screen and (max-width: 745px) {
   .place__next-conteiner {
     flex-direction:column; /* столбец */
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
   }
 }
