@@ -8,3 +8,9 @@
     flex-direction:column; /* столбец */
   }
 }
+
+@media screen and (max-width: 450px) {
+  .place__first-conteiner {
+    margin-bottom: 32px;
+  }
+}
