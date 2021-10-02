@@ -31,7 +31,7 @@
 @media screen and (max-width: 960px) {
   .photo-grid {
     margin-top: 88px;
-    margin-bottom: 72px;/*88-16*/
+    margin-bottom: 88px;/*88*/
   }
 }
 
