@@ -1,5 +1,5 @@
 .place__title {
-    width: 47%;/*460px*/
+    width: 460px;/*47%*/
     font-size: 72px;
     line-height: 76px;
     font-weight: 900;
@@ -9,8 +9,15 @@
    /* border:2px solid #d81435; /* красный рамка */
   }
 
+@media screen and (max-width: 1100px) {
+    .place__title {
+      width: 440px;/* для 1024px*/
+    }
+  }
+  
 @media screen and (max-width: 960px) {
     .place__title {
+        width: 340px;/* для 768px*/
         font-size: 42px;
         line-height: 46px;
     }
