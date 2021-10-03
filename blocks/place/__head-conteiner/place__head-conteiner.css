@@ -1,16 +1,16 @@
-.place__first-conteiner {
+.place__head-conteiner {
     display: flex;
     margin-bottom: 48px;
   }
 
 @media screen and (max-width: 745px) {
-  .place__first-conteiner {
+  .place__head-conteiner {
     flex-direction:column; /* столбец */
   }
 }
 
 @media screen and (max-width: 450px) {
-  .place__first-conteiner {
+  .place__head-conteiner {
     margin-bottom: 32px;
   }
 }
