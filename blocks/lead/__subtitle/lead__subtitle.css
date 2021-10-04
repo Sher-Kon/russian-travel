@@ -1,27 +1,27 @@
 .lead__subtitle {
-    width: 640px;
-    font-size: 30px;
-    line-height: 36px;
-    font-weight:400;
-    font-style:normal;
-    text-align: center;
-    z-index: 1; /* накрывает для всех кто меньше */
-    margin-top: 32px;
-    margin-bottom: 64px;
-    /*border:2px solid #d81435; /* красный рамка */
-  }
+  width: 640px;
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  z-index: 1; /* накрывает для всех кто меньше */
+  margin-top: 32px;
+  margin-bottom: 64px;
+  /*border:2px solid #d81435; /* красный рамка */
+}
 
 @media screen and (max-width: 745px) {
   .lead__subtitle {
-    width: 288px;
-    margin-top: 16px;
-    font-size: 16px;
-    line-height: 20px;
+      width: 288px;
+      margin-top: 16px;
+      font-size: 16px;
+      line-height: 20px;
   }
 }
 
 @media screen and (max-width: 450px) {
   .lead__subtitle {
-    margin-bottom: 16px;
+      margin-bottom: 16px;
   }
 }

@@ -1,21 +1,21 @@
 .intro {
-    width: 690px;/*320 720 690px*/
-    display: flex;
-    align-self: flex-start;/*центровать слева*/
-    flex-direction:column; /* столбец */
-    margin-top: 92px;
-    margin-left: 100px;
-  }
+  width: 690px; /*320 720 690px*/
+  display: flex;
+  align-self: flex-start; /*центровать слева*/
+  flex-direction: column; /* столбец */
+  margin-top: 92px;
+  margin-left: 100px;
+}
 
 @media screen and (max-width: 1275px) {
   .intro {
-    margin-left: 2px;
+      margin-left: 2px;
   }
 }
 
 @media screen and (max-width: 1100px) {
   .intro {
-    margin-left: 16px;
+      margin-left: 16px;
   }
 }
 
@@ -27,13 +27,13 @@
 
 @media screen and (max-width: 791px) {
   .intro {
-    width: 670px;/*320 720 690px*/
+      width: 670px; /*320 720 690px*/
   }
-}  
+}
 
 @media screen and (max-width: 745px) {
   .intro {
-    width: 92%;/*320 720 690px*/
-    margin-top: 64px;
+      width: 92%; /*320 720 690px*/
+      margin-top: 64px;
   }
 }

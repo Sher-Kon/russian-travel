@@ -1,8 +1,8 @@
 .cover__titles {
     display: flex;
-    flex-direction:column; /* столбец */
-    align-items: center;/* по центру ширины */
-    justify-content: center;/* по высоте*/
-    z-index: 2;/*поместить в 1 слой*/
+    flex-direction: column; /* столбец */
+    align-items: center; /* по центру ширины */
+    justify-content: center; /* по высоте*/
+    z-index: 2; /*поместить в 1 слой*/
     /*border:2px solid #d81435; /* красный рамка */
 }

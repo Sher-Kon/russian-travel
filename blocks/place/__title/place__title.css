@@ -1,38 +1,35 @@
 .place__title {
-    width: 460px;/*47%*/
-    font-size: 72px;
-    line-height: 76px;
-    font-weight: 900;
-    font-style:normal;
-    text-align:left;
-    margin: 0;
-   /* border:2px solid #d81435; /* красный рамка */
-  }
+  width: 460px; /*47%*/
+  font-size: 72px;
+  line-height: 76px;
+  font-weight: 900;
+  font-style: normal;
+  text-align: left;
+  margin: 0;
+  /* border:2px solid #d81435; /* красный рамка */
+}
 
 @media screen and (max-width: 1100px) {
-    .place__title {
-      width: 440px;/* для 1024px*/
-    }
+  .place__title {
+      width: 440px; /* для 1024px*/
   }
-  
+}
+
 @media screen and (max-width: 960px) {
-    .place__title {
-        width: 340px;/* для 768px*/
-        font-size: 42px;
-        line-height: 46px;
-    }
+  .place__title {
+      width: 340px; /* для 768px*/
+      font-size: 42px;
+      line-height: 46px;
+  }
 }
 
 @media screen and (max-width: 745px) {
-    .place__title {
-        width: 288px;/* от 320px*/
-        font-size: 32px;
-        line-height: 35px;
-        text-align:left;
-        margin-left: 16px;
-        margin-bottom: 32px;
-    }
+  .place__title {
+      width: 288px; /* от 320px*/
+      font-size: 32px;
+      line-height: 35px;
+      text-align: left;
+      margin-left: 16px;
+      margin-bottom: 32px;
+  }
 }
-
-
-

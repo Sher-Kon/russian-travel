@@ -1,17 +1,17 @@
 .photo-grid__item {
-    width: 284px;
-    height:213px;
-    margin: 0;/*для грида*/
-    /*margin-top: 0;/* для флекса*/
-    /*margin-left: 5px;/*для флекса*/
-    /*margin-right: 5px;/*для флекса*/
-    /*margin-bottom: 16px;/*для флекса*/
-   /* width:100%;
-    height:100%;*/
-  }
+  width: 284px;
+  height: 213px;
+  margin: 0; /*для грида*/
+  /*margin-top: 0;/* для флекса*/
+  /*margin-left: 5px;/*для флекса*/
+  /*margin-right: 5px;/*для флекса*/
+  /*margin-bottom: 16px;/*для флекса*/
+  /* width:100%;
+  height:100%;*/
+}
 
 @media screen and (max-width: 1100px) {
-    .photo-grid__item {
+  .photo-grid__item {
       width: 300px;
       height: 225px;
   }
@@ -19,14 +19,14 @@
 
 @media screen and (max-width: 960px) {
   .photo-grid__item {
-    width: 352px;
-    height: 264px;
+      width: 352px;
+      height: 264px;
   }
 }
 
 @media screen and (max-width: 450px) {
   .photo-grid__item {
-    width: 288px;
-    height: 216px;
+      width: 288px;
+      height: 216px;
   }
 }

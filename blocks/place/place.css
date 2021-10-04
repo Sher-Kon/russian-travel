@@ -1,26 +1,26 @@
 .place {
-    width: 100%;/*984*/
-    /*height: 660px;/*660*/
-    display: flex;
-    flex-direction:column; /* столбец */
-    margin-bottom: 80px;/*50 73 80 80*/
-    /*border:2px solid #d81435; /* красный рамка */
-  }
+  width: 100%; /*984*/
+  /*height: 660px;/*660*/
+  display: flex;
+  flex-direction: column; /* столбец */
+  margin-bottom: 80px; /*50 73 80 80*/
+  /*border:2px solid #d81435; /* красный рамка */
+}
 
 @media screen and (max-width: 960px) {
   .place {
-    margin-bottom: 73px;/*50 73 80 80*/
+      margin-bottom: 73px; /*50 73 80 80*/
   }
 }
 
 @media screen and (max-width: 745px) {
   .place {
-    margin-bottom: 50px;/*50 73 80 80*/
+      margin-bottom: 50px; /*50 73 80 80*/
   }
 }
 
 @media screen and (max-width: 450px) {
   .place {
-    margin-bottom: 41px;/*66 =25+41*/
+      margin-bottom: 41px; /*66 =25+41*/
   }
 }

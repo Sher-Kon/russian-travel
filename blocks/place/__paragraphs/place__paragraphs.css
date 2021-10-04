@@ -1,16 +1,16 @@
 .place__paragraphs {
-    width: 50%;/*484px*/
+    width: 50%; /*484px*/
     margin-left: 40px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-   /* border:2px solid #d81435; /* красный рамка */
-  }
+    /* border:2px solid #d81435; /* красный рамка */
+}
 
 @media screen and (max-width: 745px) {
     .place__paragraphs {
-        width: 288px;/*288px*/
+        width: 288px; /*288px*/
         margin-left: 16px;
         margin-top: 32px;
     }
-}  
+}

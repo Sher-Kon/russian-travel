@@ -1,36 +1,35 @@
 .cover {
-  background: url('../../images/cover-trains.jpg') no-repeat;
+  background: url("../../images/cover-trains.jpg") no-repeat;
   background-size: cover;
-  width: 1184px;/* от родителя 1184px;*/
-  min-height: 740px;/* от родителя 740px;*/
-    /*width: 100%;*/
-    display: flex;/* флекс - контейнер*/
-    flex-direction:column; /* столбец */
-    align-items: center;/* по центру ширины */
-    justify-content: center;/* по высоте*/
-    position: relative;
-    margin-top: 12px;/*92-80*/
-    opacity: .9;
+  width: 1184px; /* от родителя 1184px;*/
+  min-height: 740px; /* от родителя 740px;*/
+  /*width: 100%;*/
+  display: flex; /* флекс - контейнер*/
+  flex-direction: column; /* столбец */
+  align-items: center; /* по центру ширины */
+  justify-content: center; /* по высоте*/
+  position: relative;
+  margin-top: 12px; /*92-80*/
+  opacity: 0.9;
 }
 
-
 @media screen and (max-width: 1275px) {
-    .cover {
-      width: 1010px;/*1024 1184px*/
-      min-height: 631px;/*640 740px*/
-    }
+  .cover {
+      width: 1010px; /*1024 1184px*/
+      min-height: 631px; /*640 740px*/
   }
+}
 
-  @media screen and (max-width: 1045px) {
-    .cover {
-        width: 755px;/*768 1024 1184px*/
-        min-height: 462px;/*470 640 740px*/
-    }
+@media screen and (max-width: 1045px) {
+  .cover {
+      width: 755px; /*768 1024 1184px*/
+      min-height: 462px; /*470 640 740px*/
+  }
 }
 
 @media screen and (max-width: 787px) {
   .cover {
-    width: 310px;/* 320 768 1024 1184px*/
-    min-height: 190px;/*470 640 740px*/
+      width: 310px; /* 320 768 1024 1184px*/
+      min-height: 190px; /*470 640 740px*/
   }
 }

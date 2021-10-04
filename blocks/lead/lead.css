@@ -1,9 +1,9 @@
 .lead {
-  /*width: calc(768px + (0.42*(100% - 768px)));/*984*/  
-  width:984px;
+  /*width: calc(768px + (0.42*(100% - 768px)));/*984*/
+  width: 984px;
   display: flex;
-  flex-direction:column; /* столбец */
-  align-items: center;/* располагаем блоки по центру */
+  flex-direction: column; /* столбец */
+  align-items: center; /* располагаем блоки по центру */
   margin-top: 56px;
   /*border:2px solid #d81435; /* красный рамка */
 }
@@ -16,6 +16,6 @@
 
 @media screen and (max-width: 960px) {
   .lead {
-    width: 100%;
+      width: 100%;
   }
 }
