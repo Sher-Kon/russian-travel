@@ -23,6 +23,6 @@
   z-index: 1; /*поместить в 1 слой*/
 }
 
-.cover__background:hover::before {
+.cover__background:hover {
   opacity: 0.8;
 }
