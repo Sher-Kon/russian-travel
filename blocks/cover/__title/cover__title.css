@@ -13,7 +13,7 @@
   /*border:2px solid #d81435; /* красный рамка */
 }
 
-@media screen and (max-width: 787px) {
+@media screen and (max-width: 590px) {
   .cover__title {
       width: 250px; /*360*/
       font-size: 32px;
