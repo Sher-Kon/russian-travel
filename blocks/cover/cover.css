@@ -11,6 +11,22 @@
   margin-top: 12px; /*92-80*/
 }
 
+.cover::before {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(42,44,47,0.8);/*#000;/* #2a2c2f;*/
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  left: 0;
+}
+
+.cover:hover::before {
+  opacity: 0.5;
+}
+
 @media screen and (max-width: 1285px) {
   .cover {
       /*width: 100%;/**/
