@@ -7,4 +7,4 @@
 
 * [Ссылка на GitHub Pages](https://github.com/Sher-Kon/russian-travel.git)
 
-работающий сайт на github pages: https://praktikum.yandex.ru/trainer/web/lesson/f83d22ce-8bfe-4017-8e0f-dbf52ab92a50 
+сайт на github pages: https://Sher-Kon.github.io/russian-travel/index.html

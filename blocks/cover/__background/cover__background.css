@@ -1,6 +1,7 @@
 .cover__background {
   width: 100%;
   height: 100%;
+  display: block;
   position: absolute;
   top: 0;
   left: 0;
@@ -9,6 +10,19 @@
   opacity: 0.3;
 }
 
-.cover__background:hover {
+.cover__background::before {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.8);/*#000;/* #2a2c2f;*/
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  left: 0;
+  z-index: 1; /*поместить в 1 слой*/
+}
+
+.cover__background:hover::before {
   opacity: 0.8;
 }
