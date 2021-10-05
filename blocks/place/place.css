@@ -21,6 +21,6 @@
 
 @media screen and (max-width: 450px) {
   .place {
-      margin-bottom: 41px; /*66 =25+41*/
+      margin-bottom: 40px; /*66 =26+40*/
   }
 }
