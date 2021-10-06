@@ -7,4 +7,4 @@
 
 * [Ссылка на GitHub Pages](https://github.com/Sher-Kon/russian-travel.git)
 
-сайт на github pages: https://marker1k.github.io/russian-travel/
+образец сайта на github pages: https://marker1k.github.io/russian-travel/
