@@ -1,6 +1,7 @@
 .cover {
   background: url("../../images/cover-trains.jpg") no-repeat;
   background-size: cover;
+  background-position: center;
   width: 1184px; /* от родителя 1184px;*/
   min-height: 740px; /* от родителя 740px;*/
   display: flex; /* флекс - контейнер*/
