@@ -21,13 +21,13 @@
   }
 }
 
-@media screen and (max-width: 776px) {
+@media screen and (max-width: 767px) {/*776*/
   .intro {
     width: 690px; /* 690px */
   }
 }
 
-@media screen and (max-width: 745px) {
+@media screen and (max-width: 745px) {/*745*/
   .intro {
       width: 400px; /* 400px */
   }
