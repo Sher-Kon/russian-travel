@@ -30,12 +30,12 @@
 @media screen and (max-width: 1285px) {
   .cover {
       /*width: 100%;/**/
-      width: 1020px; /*1024px 1184px*/
+      width: 1024px; /*1024px 1184px*/
       min-height: 640px; /*640 740px*/
   }
 }
 
-@media screen and (max-width: 1036px) {/*1045px*/
+@media screen and (max-width: 1023px) {/*1045px*/
   .cover {
       width: 100%;/**/
   }
