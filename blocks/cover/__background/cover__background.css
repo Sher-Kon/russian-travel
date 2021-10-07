@@ -9,7 +9,6 @@
     align-items: center; /* по центру ширины */
     justify-content: center; /* по высоте*/
     position: relative;
-    /*margin-top: 12px; /*92-80*/
   }
   
   .cover__background::before {
@@ -39,20 +38,14 @@
   
   @media screen and (max-width: 1023px) {/*1045px*/
     .cover__background {
-        width: 100%;/**/
-    }
-  }
-  
-  @media screen and (max-width: 787px) {
-    .cover__background {
-        /*width: 310px; /* 320 768 1024 1184px*/
+        width: 768px; /* 320 768 1024 1184px*/
         min-height: 480px; /*470 640 740px*/
     }
   }
   
-  @media screen and (max-width: 450px) {
+  @media screen and (max-width: 767px) {
     .cover__background {
-        /*width: 310px; /* 320 768 1024 1184px*/
+        width: 320px; /* 320 768 1024 1184px*/
         min-height: 200px; /*200 470 640 740px*/
     }
   }

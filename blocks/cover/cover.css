@@ -4,5 +4,6 @@
   align-items: center; /* по центру ширины */
   justify-content: center; /* по высоте*/
   position: relative;
-  margin-top: 12px; /*92-80*/
+  margin: 0;
+  /*margin-top: 12px; /*92-80*/
 }

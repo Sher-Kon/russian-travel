@@ -3,13 +3,13 @@
   /*height: 660px;/*660*/
   display: flex;
   flex-direction: column; /* столбец */
-  margin-bottom: 80px; /*50 73 80 80*/
+  margin-bottom: 92px; /*50 73 80 80*/
   /*border:2px solid #d81435; /* красный рамка */
 }
 
 @media screen and (max-width: 960px) {
   .place {
-      margin-bottom: 73px; /*50 73 80 80*/
+      margin-bottom: 90px; /*50 73 80 80*/
   }
 }
 

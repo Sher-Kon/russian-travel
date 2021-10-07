@@ -12,7 +12,7 @@
   /*border:2px solid #d81435; /* красный рамка */
 }
 
-@media screen and (max-width: 590px) {
+@media screen and (max-width: 767px) {/*590*/
   .cover__subtitle {
       width: 288px; /*360*/
       font-size: 14px;
